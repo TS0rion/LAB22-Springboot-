@@ -3,6 +3,7 @@ package com.likelion.lab22_spring_boot.service.impl;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.likelion.lab22_spring_boot.dto.StudentDto;
 import com.likelion.lab22_spring_boot.exception.ResourceNotFoundException;
@@ -13,6 +14,7 @@ import com.likelion.lab22_spring_boot.service.StudentService;
 import lombok.RequiredArgsConstructor;
 
 @Service
+@Transactional
 @RequiredArgsConstructor
 public class StudentServiceImpl implements StudentService {
 
