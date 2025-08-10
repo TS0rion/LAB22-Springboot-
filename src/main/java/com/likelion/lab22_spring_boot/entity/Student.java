@@ -18,7 +18,7 @@ public class Student {
     @Id
     private String id;
     private String name;
-    private int phone;
+    private String phone;
     private String email;
     private String address;
 }
