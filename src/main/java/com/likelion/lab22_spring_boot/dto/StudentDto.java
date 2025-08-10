@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 public class StudentDto {
     private String id;
     private String name;
-    private int phone;
+    private String phone;
     private String email;
     private String address;
 }
